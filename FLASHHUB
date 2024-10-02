@@ -140,8 +140,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SkezzCreator/Pet99Far
    end,
 })
 
-local Section = Tab:CreateSection("Key Hubs")
-ad
+local Section = HubsTab:CreateSection("Key Hubs")
+
 local Button = HubsTab:CreateButton({
    Name = "Zap Hub",
    Callback = function()
@@ -159,7 +159,7 @@ loadstring(game:HttpGet"https://pastebin.com/raw/dEfnmf7S")() -- Key located in 
 local Button = HubsTab:CreateButton({
    Name = "Doors Enhancer",
    Callback = function()
-loadstring(game:HttpGet("https://scripts.waza80.com/script/DOORS")()
+loadstring(game:HttpGet("https://scripts.waza80.com/script/DOORS"))()
    end,
 })
 
@@ -173,7 +173,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/rybowe/rybowescripts/
 local Button = HubsTab:CreateButton({
    Name = "Aether Hub",
    Callback = function()
-script_key = "Add key here to auto verify"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
    end,
 })
